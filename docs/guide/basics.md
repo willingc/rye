@@ -74,7 +74,7 @@ Use the `add` command to add dependencies to your project.
 rye add "flask>=2.0"
 ```
 
-Note that after `add` you need to run `sync` again to actually install it.  If you
+Use `run sync` after adding the dependency to actually install it.  If you
 want to add packages from custom indexes, you have to [configure the source](sources.md)
 first.
 
